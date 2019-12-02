@@ -1,8 +1,6 @@
 <?php
 namespace MyGreeter;
 class Client{
-	function __construct(){
-	}
 	public function getGreeting(){
 		date_default_timezone_set('Asia/Shanghai');
 		$h = date("H");
